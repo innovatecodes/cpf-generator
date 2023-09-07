@@ -56,7 +56,7 @@ const clearInput = () => (input.value = "");
 
 # Contribuições
 
-Contribuições são bem-vindas! Se você gostaria de melhorar este projeto, sinta-se à vontade para enviar um pull request.
+Contribuições são bem-vindas!
 
 # Autor
 
