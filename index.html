@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerar cpf</title>
+  <script src="generator.js" defer></script>
+  <style>
+    h2,
+    label,
+    input,
+    button {
+      font-weight: bold;
+      color: #666;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 15px auto;
+    }
+
+    form{
+      background-color: #fafafa;
+      padding: 7.5px;
+      max-width: 360px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    label+input {
+      padding: 5px 7.5px;
+      border: none;
+    }
+
+    button {
+      display: inline-block;
+      outline: none;
+      border: none;
+      padding: 5px 7.5px;
+      cursor: pointer;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Gerar cpf</h2>
+  <form>
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" disabled>
+    <button type="button">Gerar cpf</button>
+  </form>
+</body>
+
+</html>
