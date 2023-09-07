@@ -13,7 +13,7 @@ Este é um pequeno projeto JavaScript que gera números aleatórios com pontos e
 O código-fonte JavaScript que alimenta este projeto está localizado no arquivo `script.js`. Você pode personalizá-lo ou estendê-lo conforme necessário.
 
 ```javascript
-let firstDot, secondDot, thirdDot, randomNumber, n1, n2, n3, input;
+let firstDot, secondDot, dash, randomNumber, n1, n2, n3, input;
 
 const button = document.querySelector("button");
 input = document.querySelector("input");
@@ -43,9 +43,9 @@ const validator = function () {
     }
 
     if (i === 11) {
-      thirdDot = `${secondDot}${randomNumber.toString().substring(8, i)}-`;
+      dash = `${secondDot}${randomNumber.toString().substring(8, i)}-`;
       n3 = randomNumber.toString().slice(i);
-      randomNumber = `${thirdDot}${n3}`;
+      randomNumber = `${dash}${n3}`;
     }
   }
   return randomNumber;
