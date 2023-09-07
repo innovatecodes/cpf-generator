@@ -6,7 +6,7 @@ Este é um pequeno projeto JavaScript que gera números aleatórios com pontos e
 
 1. Abra o arquivo `index.html` em seu navegador da web.
 2. Clique no botão "Gerar Número".
-3. O resultado será exibido no campo de entrada da seguinte forma: `x.xxx.xxxxx-xx`.
+3. O resultado será exibido no campo de entrada da seguinte forma: `xxx.xxx.xxx-xx`.
 
 ## Código-fonte
 
